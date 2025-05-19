@@ -2,8 +2,6 @@ package String;
 
 import java.util.Scanner;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-
 
 
 public class StringPalindrome {
@@ -27,29 +25,7 @@ public class StringPalindrome {
 		 
 		 
 		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
+	
 		 
 		 String str = "nayan";
 		 String rev1 = "";
