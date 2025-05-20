@@ -9,20 +9,21 @@ class child extends Parent{
 	String bike = "BMW";
 	int cmoney = 67889;
 	
-	/*
-	 * void display() { System.out.println("Car: "+car);
-	 * System.out.println("Parent Money: "+money);
-	 * System.out.println("Bike: "+bike);
-	 * System.out.println("Total Money: "+(money+cmoney)); }
-	 */
+	
+	 void display() { System.out.println("Car: "+car);
+	 System.out.println("Parent Money: "+money);
+	 System.out.println("Bike: "+bike);
+	 System.out.println("Total Money: "+(money+cmoney)); }
+	
 }
+
 
 public class Inheritance {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		child obj = new child();
-		//obj.display();
+		obj.display();
 		System.out.println("Car: "+obj.car);
 		System.out.println("Parent Money: "+obj.money);
 		System.out.println("Bike: "+obj.bike);
