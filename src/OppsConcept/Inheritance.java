@@ -5,7 +5,7 @@ class Parent{
 	int money = 3000;
 }
 
-class child extends Parent{
+class child1 extends Parent{
 	String bike = "BMW";
 	int cmoney = 67889;
 	
@@ -22,7 +22,7 @@ public class Inheritance {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		child obj = new child();
+		child1 obj = new child1();
 		obj.display();
 		System.out.println("Car: "+obj.car);
 		System.out.println("Parent Money: "+obj.money);

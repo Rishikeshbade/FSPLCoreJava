@@ -1,22 +1,29 @@
 package OppsConcept;
 
-class Father {
-    int a = 67;
+
+class parents{
+	int a = 56;
 }
 
-class Son extends Father {
-    int a = 20;
-
-    void display() {
-        System.out.println("Using This Keyword: " + this.a);        
-        System.out.println("Using Super Keyword: " + super.a);    
-    }
+class son1 extends parents{
+	int a = 20;
+	
+	void display() {
+		System.out.println("Using This Keyword: "+this.a);
+		System.out.println("Using Super Keyword: "+super.a);
+	}
 }
+
+
 
 public class ThisAndSuperKeyword {
-    public static void main(String[] args) {
-        Son ob = new Son();
-        ob.display();
-    }
-}
 
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		son1 sb = new son1();
+		sb.display();
+
+	}
+
+}
