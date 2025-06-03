@@ -75,6 +75,12 @@ public class TreeMapExample {
 		System.out.println("Poll Last: "+map.pollLastEntry());
 		
 		
+		System.out.println("Ceiling Key: "+map.ceilingKey("Rahul"));
+		
+		
+		System.out.println("Floor Key: "+map.floorKey("Shivani"));
+		
+		
 		
 		
 		//clear
