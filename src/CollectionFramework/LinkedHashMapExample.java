@@ -15,6 +15,8 @@ public class LinkedHashMapExample {
 		map.put(9, "Grapes");
 		map.put(8, "Orange");
 		map.put(4, "Banana");
+		map.put(null, null);
+		map.put(null, null);
 		
 		System.out.println("Original LinkedHashMap: "+map);
 		

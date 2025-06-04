@@ -11,6 +11,7 @@ public class HashMapExample {
         map.put("Apple", 10);
         map.put("Banana", 20);
         map.put("Cherry", 15);
+        map.put(null, 34);
 
         System.out.println("Original HashMap: " + map);
 
