@@ -11,7 +11,7 @@ public class HashsetExample {
 		
 		set.add(2);
 		set.add(3);
-		set.add(7);
+		set.add(8);
 		set.add(null);
 		set.add(5);
 		set.add(8);
